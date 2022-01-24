@@ -1,0 +1,6 @@
+C:\Users\инет\Desktop\Нуруллин 3-2П9 C#\Ducks\bin\Debug\Ducks.dll
+C:\Users\инет\Desktop\Нуруллин 3-2П9 C#\Ducks\bin\Debug\Ducks.pdb
+C:\Users\инет\Desktop\Нуруллин 3-2П9 C#\Ducks\obj\Debug\Ducks.csproj.AssemblyReference.cache
+C:\Users\инет\Desktop\Нуруллин 3-2П9 C#\Ducks\obj\Debug\Ducks.csproj.CoreCompileInputs.cache
+C:\Users\инет\Desktop\Нуруллин 3-2П9 C#\Ducks\obj\Debug\Ducks.dll
+C:\Users\инет\Desktop\Нуруллин 3-2П9 C#\Ducks\obj\Debug\Ducks.pdb
