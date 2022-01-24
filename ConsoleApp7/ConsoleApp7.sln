@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp7", "ConsoleApp7.csproj", "{D79912E2-E15E-4B74-AFBA-E7517CD350E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ducks", "..\Ducks\Ducks.csproj", "{F1AD008E-558C-4E4A-B923-5318284F25B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D79912E2-E15E-4B74-AFBA-E7517CD350E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D79912E2-E15E-4B74-AFBA-E7517CD350E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D79912E2-E15E-4B74-AFBA-E7517CD350E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D79912E2-E15E-4B74-AFBA-E7517CD350E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1AD008E-558C-4E4A-B923-5318284F25B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1AD008E-558C-4E4A-B923-5318284F25B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1AD008E-558C-4E4A-B923-5318284F25B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1AD008E-558C-4E4A-B923-5318284F25B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C0CBD6BB-3797-47BF-BC06-A3E24D91DF0E}
+	EndGlobalSection
+EndGlobal
