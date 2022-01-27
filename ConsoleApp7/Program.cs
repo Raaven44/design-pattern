@@ -5,21 +5,31 @@ using System.Text;
 using System.Threading.Tasks;
 using Ducks;
 
-namespace ConsoleApp7
+namespace ConsoleApp1
 {
-    class Program
+    internal class Program
     {
         static void Main(string[] args)
         {
-            MallardDuck Mallard = new MallardDuck();
-            RedheadDuck Redhead = new RedheadDuck();
-            Duck[] duck = new Duck[] { new MallardDuck(), new RedheadDuck() };
-
-            foreach (Duck kry in duck)
+            Duck[] ducks = new Duck[]
             {
-                Console.WriteLine(kry.Quack());
-                Console.WriteLine(kry.Swim());
-                Console.WriteLine(kry.Display());
+                new MallardDuck(),
+                new RedHeadDuck(),
+                new RubberDuck(),
+                new DecoyDuck()
+            };
+            foreach (Duck duck in ducks)
+            {
+                Console.WriteLine(duck.Swim());
+                Console.WriteLine(duck.Display());
+                if (duck is IFlyable)
+                {
+                    Console.WriteLine((duck as IFlyable).fly());
+                }
+                if (duck is IQuackable)
+                {
+                    Console.WriteLine((duck as IQuackable).quack());
+                }
             }
             Console.ReadKey();
         }
