@@ -12,10 +12,7 @@ namespace Ducks
         {
             return "Swim" + this.GetType();
         }
-        public string Quack()
-        {
-            return "Quack" + this.GetType();
-        }
+       
         public abstract string Display();
 
     }
